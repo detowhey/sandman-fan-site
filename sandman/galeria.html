@@ -16,15 +16,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <script src="js/galleria-1.4.2.min.js"></script>
     <script src="js/galleria.classic.min.js"></script>
+    <script src="js/meu.js"></script>
     <script>
         Galleria.loadTheme('js/galleria.classic.min.js');
         Galleria.run('#galleria');
     </script>
 </head>
 
-<body>
+<body onload="gerarAnoAtual()">
     <div class="container">
-        <!--Linha -->
         <header class="row">
             <nav class="navbar navbar-inverse navbar-fixed-top menu">
                 <div class="container-fluid">
@@ -127,7 +127,7 @@
     </div>
    
     <footer>
-        <p>1932-2019 Copyright ® Todos direitos reservados <a href="https://www.dccomics.com/">DC Comics™</a></p>
+        <p>1932-<span id="ano"></span> Copyright ® Todos direitos reservados <a href="https://www.dccomics.com/" target="_blank">DC Comics™</a></p>
     </footer>
 </body>
 </html>

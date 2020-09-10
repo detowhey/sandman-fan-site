@@ -1,3 +1,8 @@
-function trocar(idimagem, imagem) {
-	document.getElementById(idimagem).querySelector("img").src = imagem;
+function trocarImagem(idImagem, imagem) {
+	document.getElementById(idImagem).querySelector("img").src = imagem;
+}
+
+function gerarAnoAtual() {
+	let dataAtual = new Date
+	document.getElementById("ano").innerHTML = dataAtual.getFullYear()
 }

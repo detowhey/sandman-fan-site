@@ -14,7 +14,7 @@
     <script src="js/meu.js"></script>
 </head>
 
-<body>
+<body onload="gerarAnoAtual()">
     <div class="container">
         <!--Linha -->
         <header class="row">
@@ -192,7 +192,7 @@
     </div>
 
     <footer>
-        <p>1932-2019 Copyright ® Todos direitos reservados <a href="https://www.dccomics.com/">DC Comics™</a></p>
+        <p>1932-<span id="ano"></span> Copyright ® Todos direitos reservados <a href="https://www.dccomics.com/" target="_blank">DC Comics™</a></p>
     </footer>
 
 </body>

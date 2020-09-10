@@ -10,10 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/meu.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body onload="gerarAnoAtual()">
     <div class="container">
         <header class="row">
             <nav class="navbar navbar-inverse navbar-fixed-top menu">
@@ -63,7 +64,6 @@
             </div>
         </div>
 
-        <!-- linha -->
         <div class="row historia">
            
                 <div class="col-md-12">
@@ -101,9 +101,8 @@
             <li><a href="autor.html">Próximo</a></li>
         </ul>
     </div>
-    <!-- fim container -->
     <footer>
-        <p>1932-2019 Copyright ® Todos direitos reservados <a href="https://www.dccomics.com/">DC Comics™</a></p>
+        <p>1932-<span id="ano"></span> Copyright ® Todos direitos reservados <a href="https://www.dccomics.com/" target="_blank">DC Comics™</a></p>
     </footer>
 
 </body>
