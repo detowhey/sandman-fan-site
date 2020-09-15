@@ -71,17 +71,13 @@ footer a {
     text-shadow: #000000 0.1em 0.1em 0.2em;
 }
 
-
 .historia {
     background-color: #3a3a3a;
-    /* #939392 #515151 #eeee22 #ffba00*/
     border: 1px solid #ffba00;
     color: #c3c3c3;
-    /*#bababa #c3c3c3*/
     border-radius: 5px;
     margin-bottom: 2%;
 }
-
 
 .historia p {
     text-align: justify;
@@ -102,6 +98,8 @@ footer a {
     font-size: 2em;
     font-family: "Roboto Slab";
     color: #FFFFFF;
+    text-shadow: #000000 0.1em 0.1em 0.2em;
+    
 }
 
 .historia h2 {
@@ -109,6 +107,7 @@ footer a {
     font-size: 1.5em;
     font-family: "Roboto";
     color: #FFFFFF;
+    text-shadow: #000000 0.1em 0.1em 0.2em;
 }
 
 .historia span {
@@ -160,7 +159,6 @@ footer a {
 #autor {
     width: 100%;
     margin-top: 15%;
-
 }
 
 #daniel {
